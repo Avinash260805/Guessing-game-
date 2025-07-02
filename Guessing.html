@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="guessing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            Guessing Game with Computer
+        </nav>
+    </header>
+    <main>
+        <div id="welcome">Welcome to the Game</div>
+        <div class="start"><button id="startbt">Start</button></div>
+        <div id="number">
+            <p> Now guess the numberrr </p>
+            <input type="number" id="userguess" placeholder="Enter your guess" required>
+            <button id="enter"> Enter</button>
+        </div>
+        <div id="result"></div>
+    </main>
+    <script src="guessing.js" defer></script>
+</body>
+
+</html>
